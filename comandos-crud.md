@@ -95,3 +95,17 @@ select
 FROM produtos inner join fabricantes
 ON produtos.fabricantes_id = fabricantes.id;
 
+--INNER JOIN: comando que permite juntar duas ou mais tabelas
+-- ON: comando para indicar a meneira como as tabelas sao juntas
+-- AS comando qua permite dar um apeliido para as colunas
+
+## update
+update fabricantes set nome = 'LG do Brasil'
+WHERE id = 4; --SEMPRE USE WHERE, SEMPRE DÊ UMA CONDIÇÃO
+
+## DELETE
+delete from produtos 
+where id = 2; -- SEMPRE USE WHERE, SEMPRE DÊ UMA CONDIÇÃO
+
+
+
