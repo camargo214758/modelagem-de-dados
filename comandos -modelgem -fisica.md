@@ -1,7 +1,7 @@
 # comandos SQL para modelagem fisica
 
 ## Criar bando de dados
-CREATE DATABASE vendas_claudio camargo CHARACTER SET utf8mb4;
+CREATE DATABASE vendas_claudio_camargo CHARACTER SET utf8mb4;
 
 ## Entrar no banco de dados criado
 USE DATABASE vendas_claudio;
